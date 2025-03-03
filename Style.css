@@ -1,0 +1,90 @@
+/*makes images on homepage cover full area (no weird border on the sides) */
+body{
+  height:100%;
+  margin:0;
+}
+
+/*Navbar CSS*/
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: navy;
+  }
+  
+  li {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 5px 16px;
+  }
+  li a {
+    /*Text in Navbar */
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+
+  /*text style */
+  p{
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+/*Button styling, uniform accross website */
+  button{
+    border: 0ch;
+    font-size: medium;
+    font-family: sans-serif;
+    background-color: navy;
+    cursor: pointer;
+    fill:white;
+    margin: 4px 2px;
+    border-radius: 8px;
+    padding:7px;
+    color:white;
+  }
+
+  button:hover{
+    background-color: #ff6767;
+  }
+/* image style for homepage*/
+  img{
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
+    background-size: cover;
+  }
+
+
+
+/*Unique backgrounds for each page*/
+#homePage{
+  background-color: pink;
+}
+
+#tempPage{
+  background-color: lightgreen;
+}
+
+#humidityPage{
+  background-color: aqua;
+}
+
+#UVpage{
+  background-color: rgb(255, 255, 159);
+}
+
+#windPage{
+  background-color: lightslategray;
+}
+
+/*Flexibox*/
+.flex{
+  display: flex;
+  justify-content: center;
+}

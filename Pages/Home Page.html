@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <!-- input style sheet-->
+        <link rel="stylesheet" href="../style.css"/>
+    </head>
+
+    <body id="homePage">
+                 <!-- Navbar to go to other pages -->
+                 <ul>
+                    <li><a href="Home Page.html">Home</a></li>
+                    <li><a href="Temperature Section.html">Tempurature</a></li>
+                    <li><a href="Humidity Section.html">Humidity</a></li>
+                    <li><a href="UV Index Section.html">UV Index</a></li>
+                    <li><a href="Wind Speed Section.html">Wind Speed</a></li>
+                  </ul>
+                </br>
+
+                <!--flexibox's to center and make the elements look nice-->
+        <div class="flex">
+        <p id="info">Input your city</p>
+    </div>
+    <div class="flex">
+    <!--textbox to input city -->
+        <input type="text" id="search"/>
+        
+        <!--Search button -->
+         <button id="searchButton" onclick="Search()">Search</button>
+        </div>
+        <div class="flex">
+            <!--Says city name -->
+         <p id="city">City Name: _____ </p>
+        </div>
+        <!--Default image of the sky, changes with city input -->
+        <img id="image" src="../images/Default.jpg">
+    </body>
+
+<!-- JS input -->
+    <script src="../script.js">
+    </script>
+</html>
