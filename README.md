@@ -1,5 +1,5 @@
 This is apart of my class assignment, meant to practice fetch() using a local JSON file.
-THe assignment specifications are as follows:
+The assignment specifications are as follows:
 
 # Assignment 2: Weather JSON Application
 
